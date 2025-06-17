@@ -7,7 +7,6 @@ import mdigest.core.auxiliary   as aux
 import mdigest.core.toolkit     as tk
 from   mdigest.core.imports     import *
 from   mdigest.utils.pdbhandler import *
-from   pymol                    import cmd
 from   sklearn.preprocessing    import MinMaxScaler
 
 
