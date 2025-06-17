@@ -1,3 +1,4 @@
+"""
 import numpy as np
 import warnings
 from pymol import cmd, stored, selector
@@ -547,3 +548,4 @@ cmd.extend('gradient_color', gradient_color)
 cmd.extend("draw_network_from_df", draw_network_from_df)
 cmd.extend("draw_shortest_path", draw_shortest_path)
 cmd.extend("draw_network_from_adjacency", draw_network_from_adjacency)
+"""
