@@ -1,3 +1,4 @@
+"""
 import numpy as np
 import warnings
 from pymol import cmd, stored, selector,util
@@ -316,3 +317,4 @@ def draw_interactions(pdb, dataframe, donor='donor_resid', acceptor='acceptor_re
     util.cnc('resid 97+115+111+112+125+126+127+128+132')
 
 cmd.extend("draw_interactions", draw_interactions)
+"""
